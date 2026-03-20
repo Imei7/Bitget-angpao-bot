@@ -1,0 +1,33 @@
+{
+  "name": "telegram-angpao-sniper-bot",
+  "version": "2.0.0",
+  "description": "Production-grade Telegram bot untuk monitoring X accounts dengan rate limiting dan circuit breaker",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "bun --hot index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "twitter",
+    "angpao",
+    "monitor",
+    "sniper",
+    "rate-limiter",
+    "circuit-breaker"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/telegram-angpao-sniper-bot"
+  }
+}
