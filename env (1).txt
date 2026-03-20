@@ -1,0 +1,39 @@
+# ═══════════════════════════════════════════════════════════════
+# 🧧 TELEGRAM ANGPAO SNIPER BOT - ENVIRONMENT CONFIG
+# ═══════════════════════════════════════════════════════════════
+#
+# CARA MENDAPATKAN BOT_TOKEN dan CHAT_ID:
+#
+# 1. BOT_TOKEN:
+#    - Buka Telegram, cari @BotFather
+#    - Kirim /newbot
+#    - Ikuti instruksi (beri nama bot, beri username)
+#    - Copy token yang diberikan
+#
+# 2. CHAT_ID:
+#    - Start chat dengan bot kamu
+#    - Buka: https://api.telegram.org/bot<TOKEN>/getUpdates
+#    - Kirim pesan ke bot
+#    - Refresh URL, cari "chat":{"id":XXXXXXX
+#    - Angka itu adalah CHAT_ID
+#
+# ═══════════════════════════════════════════════════════════════
+
+# ─────────────────────────────────────────────────────────────
+# 🤖 TELEGRAM BOT CONFIGURATION (WAJIB DIISI)
+# ─────────────────────────────────────────────────────────────
+
+# Token dari @BotFather
+# Contoh: 7123456789:AAHxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+BOT_TOKEN=
+
+# Chat ID tujuan alert
+# Personal: 123456789 | Group: -1001234567890
+CHAT_ID=
+
+# ─────────────────────────────────────────────────────────────
+# 🔧 OPTIONAL
+# ─────────────────────────────────────────────────────────────
+
+# Debug mode (true/false)
+DEBUG=false
